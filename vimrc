@@ -43,7 +43,7 @@ set backspace=indent,eol,start
 set laststatus=2
 set number
 "set relativenumber
-set undofile
+"set undofile
 
 " Auto adjust window sizes when they become current
 "set winwidth=84
@@ -89,7 +89,7 @@ set statusline+=\ %{fugitive#statusline()}
 " encoding
 set statusline+=\ [%{strlen(&fenc)?&fenc:&enc}]
 " rvm
-set statusline+=\ %{rvm#statusline()}
+"set statusline+=\ %{rvm#statusline()}
 " line x of y
 set statusline+=\ [line\ %l\/%L]
 
@@ -358,7 +358,7 @@ set guifont=Monaco:h12
 "  ---------------------------------------------------------------------------
 
 set backupdir=~/tmp,/tmp
-set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
+"set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
 
 " Ctags path (brew install ctags)
 let Tlist_Ctags_Cmd = 'ctags'
