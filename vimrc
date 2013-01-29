@@ -52,7 +52,7 @@ set winminheight=5
 set winheight=999
 
 colorscheme solarized
-set background=light " or dark
+set background=dark" or dark
 set t_Co=256
 
 set splitbelow splitright
@@ -66,7 +66,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-set nowrap
+"set nowrap
 set textwidth=79
 set formatoptions=n
 
