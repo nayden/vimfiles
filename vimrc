@@ -1,4 +1,4 @@
-set nocompatible               " be iMproved
+" set nocompatible               " be iMproved
 
 "  ---------------------------------------------------------------------------
 "  Plugins
@@ -42,7 +42,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set number
-set relativenumber
+"set relativenumber
 set undofile
 
 " Auto adjust window sizes when they become current
