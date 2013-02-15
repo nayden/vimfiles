@@ -2,4 +2,7 @@
 cp -r ~/.vim ~/.vim.old 2>/dev/null
 rm -fr ~/.vim 2>/dev/null
 rm -f ~/.vimrc 2>/dev/null
-git clone https://github.com/krisleech/vimfiles ~/.vim && cd ~/.vim && rake install && ln -s ~/.vim/vimrc ~/.vimrc
+CWD=`pwd`
+cd ${HOME}/.vim
+git clone https://github.com/nayden/vimfiles && rake install && ln -s ~/.vim/vimrc ~/.vimrc
+cd ${CWD}

@@ -1,4 +1,4 @@
-set nocompatible               " be iMproved
+" set nocompatible               " be iMproved
 
 "  ---------------------------------------------------------------------------
 "  Plugins
@@ -42,17 +42,17 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set number
-set relativenumber
-set undofile
+"set relativenumber
+"set undofile
 
 " Auto adjust window sizes when they become current
-set winwidth=84
-set winheight=5
-set winminheight=5
-set winheight=999
+"set winwidth=84
+"set winheight=5
+"set winminheight=5
+"set winheight=999
 
 colorscheme solarized
-set background=light " or dark
+set background=dark" or dark
 set t_Co=256
 
 set splitbelow splitright
@@ -66,7 +66,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
-set nowrap
+"set nowrap
 set textwidth=79
 set formatoptions=n
 
@@ -89,7 +89,7 @@ set statusline+=\ %{fugitive#statusline()}
 " encoding
 set statusline+=\ [%{strlen(&fenc)?&fenc:&enc}]
 " rvm
-set statusline+=\ %{rvm#statusline()}
+"set statusline+=\ %{rvm#statusline()}
 " line x of y
 set statusline+=\ [line\ %l\/%L]
 
@@ -358,7 +358,7 @@ set guifont=Monaco:h12
 "  ---------------------------------------------------------------------------
 
 set backupdir=~/tmp,/tmp
-set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
+"set undodir=~/.vim/.tmp,~/tmp,~/.tmp,/tmp
 
 " Ctags path (brew install ctags)
 let Tlist_Ctags_Cmd = 'ctags'
